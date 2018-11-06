@@ -1,8 +1,8 @@
 <h1><%= @article.title  %></h1>
 <p><%= @article.content %></p>
 <div class="row">
-  <%= link_to "manipulate me", edit_article_path(@article), :class => "btn btn-primary"%>
-  <%= link_to "destroy me", article_path(@article), method: :delete, :class => "btn btn-primary" %>
-  <%= link_to "strange loop", articles_path, :class => "btn btn-primary"%>
+  <%= link_to "manipulate me", edit_article_path(@article), :class => "btn btn-warning"%>
+  <%= link_to "destroy me", article_path(@article), method: :delete, :class => "btn btn-danger" %>
+  <%= link_to "strange loop", articles_path, :class => "btn btn-success"%>
 </div>
 <p>Find me in app/views/articles/show.html.erb</p>
