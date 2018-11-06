@@ -1,3 +1,40 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  font-family: Helvetica;
+  text-align: center;
+  background-color: #FCE7FF;
+}
+
+h3 {
+  color: black;
+}
+
+a {
+  text-align: center;
+  color: black;
+}
+
+body {
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px;
+}
+.container {
+}
+
+.col-lg-3, h3 {
+  background-color: #E2FFEE;
+}
+
+.card {
+  box-shadow: 5px;
+}
