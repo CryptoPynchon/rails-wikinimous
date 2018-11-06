@@ -1,2 +1,4 @@
-<h1>Articles#show</h1>
+<h1><%= @article.title  %></h1>
+<p><%= @article.content %></p>
+<%= link_to "slay me", article_path(@article), method: :delete %> %>
 <p>Find me in app/views/articles/show.html.erb</p>
