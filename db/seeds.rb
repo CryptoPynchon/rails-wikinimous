@@ -4,4 +4,12 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+#   Character.create(name: 'Luke', movie: movies.fir$i = 0
+i = 0
+puts "Creating 10 new articles..."
+while i != 11 do
+  article = Article.new(title: Faker::LordOfTheRings.location, content: Faker::Community.quotes)
+  article.save
+  i += 1
+end
+puts "Done, bitch. It's just too easy."
